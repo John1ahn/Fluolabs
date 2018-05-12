@@ -15,7 +15,7 @@ def draw():
     x2 = noise(t2)
     x2 = map(x2, 0, 1, 0, width)
     ellipse(x2, height*2/5, 40, 40)
-    t2 += .01
+    t2 += 1
          
     #3rd circle
     x3 = noise(t3)
